@@ -12,6 +12,6 @@ public class Student extends Person {
 	}
 	@Override
 	public String toString() {
-		return "Student " + getFirstName() + " " + getLastName() + " Total Hours: " + getTotalHours();
+		return "Student " + getFirstName() + " " + getLastName() + " " + getTotalHours();
 	}
 }
