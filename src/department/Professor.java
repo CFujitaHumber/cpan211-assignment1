@@ -14,6 +14,6 @@ public class Professor extends Person implements AttendsCourses, ParticipateHour
 	
 	@Override
 	public String toString() {
-		return "Professor " + getFirstName() + " " + getLastName() + " Total Hours: " + getTotalHours();
+		return "Professor " + getFirstName() + " " + getLastName() + " " + getTotalHours();
 	}
 }

@@ -36,6 +36,6 @@ public abstract class Person implements ParticipateHours, AttendsCourses{
 	
 	@Override
 	public String toString() {
-		return "Person " + FIRST_NAME + " " + LAST_NAME + " Total Hours: " + totalHours;
+		return "Person " + FIRST_NAME + " " + LAST_NAME + " " + totalHours;
 	}
 }

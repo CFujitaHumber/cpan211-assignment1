@@ -13,6 +13,6 @@ public class TeachingAssistant extends Person {
 
 	@Override
 	public String toString() {
-		return "TA " + getFirstName() + " " + getLastName() + " Total Hours: " + getTotalHours();
+		return "TA " + getFirstName() + " " + getLastName() + " " + getTotalHours();
 	}
 }
